@@ -500,7 +500,7 @@ h3.my-profession
     border-radius: 50%;
     background-color: var(--skin-color);
 }
-,about .about-content .timeline .timeline-date
+.about .about-content .timeline .timeline-date
 {
     font-weight: 400;
     font-size: 14px;
