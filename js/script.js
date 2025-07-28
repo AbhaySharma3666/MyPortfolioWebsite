@@ -6,7 +6,12 @@ var typed = new Typed('.typing', {
     loop: true
 });
 
-/* ======================= Section Navigation ======================= */
+/* ======================= Default Dark Theme ======================= */
+document.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("dark-theme");
+});
+
+/* ======================= Aside Navigation ======================= */
 const nav = document.querySelector(".nav"),
       navList = nav.querySelectorAll("li"),
       totalNavList = navList.length,
